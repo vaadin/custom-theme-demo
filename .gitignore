@@ -23,4 +23,4 @@ package*json
 pnpm*
 error-screenshots
 
-/flow-in-app-theme-demo/frontend/theme/custom-theme.js
+./flow-in-app-theme-demo/frontend/theme/custom-theme/custom-theme.js
