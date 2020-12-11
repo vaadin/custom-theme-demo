@@ -1,3 +1,10 @@
+/*
+These view specific styles are global scoped (like global.css),
+but in another file to keep things cleaner. You have even one
+file per each view, in case there is a lot of css.
+*/
+
+
 /* Main layout */
 
 a[highlight] {
@@ -36,6 +43,8 @@ a[highlight] {
     }
 }
 
+
+/* Dashboard view */
 .dashboard-view .contact-stats {
     font-size: 4em;
     margin: 1em 0;
