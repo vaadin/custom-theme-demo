@@ -15,11 +15,11 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <vaadin.version>18.0.2</vaadin.version>
+        <vaadin.version>19.0-SNAPSHOT</vaadin.version>
 
         <drivers.dir>${project.basedir}/drivers</drivers.dir>
         <drivers.downloader.phase>pre-integration-test</drivers.downloader.phase>
-        <flow.version>6.0-SNAPSHOT</flow.version>
+        <flow.version>6.0.0.alpha2</flow.version>
     </properties>
 
     <parent>

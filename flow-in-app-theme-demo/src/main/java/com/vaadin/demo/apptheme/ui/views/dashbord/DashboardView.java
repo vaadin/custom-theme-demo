@@ -31,7 +31,7 @@ public class DashboardView extends VerticalLayout {
         addClassName("dashboard-view");
         setDefaultHorizontalComponentAlignment(Alignment.CENTER);
         getElement().getStyle().set("background-image",
-                "url('VAADIN/static/images/background.jpg')");
+                "url('/themes/custom-theme/images/background.jpg')");
         add(
             getContactStats(),
             getCompaniesChart()

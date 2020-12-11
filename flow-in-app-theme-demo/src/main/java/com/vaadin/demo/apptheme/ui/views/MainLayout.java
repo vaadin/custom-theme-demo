@@ -13,7 +13,6 @@ import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.router.HighlightConditions;
 import com.vaadin.flow.router.RouterLink;
 
-@CssImport("./styles/shared-styles.css")
 public class MainLayout extends AppLayout {
 
     public MainLayout() {
