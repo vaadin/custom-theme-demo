@@ -30,7 +30,7 @@ public class LoginView extends VerticalLayout implements BeforeEnterObserver {
         login.setAction("login");
 
         Image crmImage = new Image(
-                "VAADIN/static/fontawesome/svgs/brands/vaadin.svg",
+                "fontawesome/svgs/brands/vaadin.svg",
                 "Vaadin CRM");
         crmImage.getStyle().set("margin-top", "5px");
         crmImage.setWidth(35, Unit.PIXELS);
