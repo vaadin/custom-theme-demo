@@ -74,7 +74,6 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
 				// In-App theming resources:
 				"/themes/**",
-				"/fontawesome/**",
 
 				// the standard favicon URI
 				"/favicon.ico",
@@ -86,6 +85,9 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 				"/manifest.webmanifest",
 				"/sw.js",
 				"/offline.html",
+				"/icons/**",
+				"/images/**",
+				"/styles/**",
 
 				// (development mode) H2 debugging console
 				"/h2-console/**");
