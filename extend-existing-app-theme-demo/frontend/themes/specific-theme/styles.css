@@ -1,0 +1,10 @@
+html, :host {
+    --lumo-primary-color: green;
+    --lumo-primary-text-color: green;
+    --lumo-font-family: 'Jetbrains Mono';
+}
+
+@font-face {
+    font-family: "Jetbrains Mono";
+    src: url("./some-fonts/jet-brains-mono/JetBrainsMono-Regular.ttf") format("TrueType");
+}
