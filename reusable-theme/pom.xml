@@ -12,15 +12,12 @@
   <url>https://www.vaadin.com</url>
 
   <properties>
-    <java.version>11</java.version>
     <maven.compiler.target>1.8</maven.compiler.target>
     <maven.compiler.source>1.8</maven.compiler.source>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
     <vaadin.version>19.0-SNAPSHOT</vaadin.version>
-    <flow.version>6.0.0.alpha3</flow.version>
-    <vaadin.spring.version>16.0.0.alpha2</vaadin.spring.version>
   </properties>
 
   <dependencyManagement>

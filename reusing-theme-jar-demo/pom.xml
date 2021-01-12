@@ -11,7 +11,8 @@
     <packaging>jar</packaging>
 
     <properties>
-        <java.version>11</java.version>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -19,8 +20,8 @@
 
         <drivers.dir>${project.basedir}/drivers</drivers.dir>
         <drivers.downloader.phase>pre-integration-test</drivers.downloader.phase>
-        <flow.version>6.0.0.alpha3</flow.version>
-        <vaadin.spring.version>16.0.0.alpha2</vaadin.spring.version>
+        <flow.version>6.0-SNAPSHOT</flow.version>
+        <vaadin.spring.version>16.0-SNAPSHOT</vaadin.spring.version>
     </properties>
 
     <parent>
@@ -33,7 +34,6 @@
         <pluginRepository>
             <id>vaadin-prereleases</id>
             <url>https://maven.vaadin.com/vaadin-prereleases</url>
-            <!--<url>http://tools.vaadin.com/nexus/content/repositories/vaadin-prereleases</url>-->
         </pluginRepository>
         <pluginRepository>
             <id>central</id>
@@ -46,7 +46,6 @@
         <repository>
             <id>vaadin-prereleases</id>
             <url>https://maven.vaadin.com/vaadin-prereleases</url>
-            <!--<url>http://tools.vaadin.com/nexus/content/repositories/vaadin-prereleases</url>-->
         </repository>
         <repository>
             <id>central</id>
@@ -312,7 +311,6 @@
                 </plugins>
             </build>
         </profile>
-
 
     </profiles>
 </project>

@@ -1,14 +1,8 @@
+@Import "./view-styles.css";
+
 html {
   --lumo-base-color: pink;
   --lumo-font-family: "Changa";
-}
-
-/**
- * defining a font locally from in-app theme folder is possible:
- */
-@font-face {
-  font-family: "Ostrich";
-  src: url("./fonts/ostrich/ostrich-sans-regular.ttf") format("TrueType");
 }
 
 @font-face {
