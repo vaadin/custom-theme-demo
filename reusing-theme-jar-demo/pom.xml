@@ -16,12 +16,11 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <vaadin.version>19.0-SNAPSHOT</vaadin.version>
+        <vaadin.version>19.0.0.alpha2</vaadin.version>
+        <flow.version>6.0.0.alpha4</flow.version>
 
         <drivers.dir>${project.basedir}/drivers</drivers.dir>
         <drivers.downloader.phase>pre-integration-test</drivers.downloader.phase>
-        <flow.version>6.0-SNAPSHOT</flow.version>
-        <vaadin.spring.version>16.0-SNAPSHOT</vaadin.spring.version>
     </properties>
 
     <parent>
@@ -80,18 +79,7 @@
         </dependency>
         <dependency>
             <groupId>com.vaadin</groupId>
-            <artifactId>flow-server</artifactId>
-            <version>${flow.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.vaadin</groupId>
-            <artifactId>flow-client</artifactId>
-            <version>${flow.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.vaadin</groupId>
             <artifactId>vaadin-spring</artifactId>
-            <version>${vaadin.spring.version}</version>
         </dependency>
         <dependency>
             <groupId>com.vaadin</groupId>
