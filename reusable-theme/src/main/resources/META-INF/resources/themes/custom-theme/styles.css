@@ -1,0 +1,16 @@
+@import "./view-styles.css";
+
+html {
+  --lumo-base-color: pink;
+  --lumo-font-family: "Changa";
+}
+
+@font-face {
+  font-family: "Changa";
+  src: url("./fonts/changa/Changa-regular.ttf") format("TrueType");
+}
+
+body {
+  background: url("./images/background2.jpg");
+  background-size: cover;
+}
