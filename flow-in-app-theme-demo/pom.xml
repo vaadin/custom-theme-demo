@@ -16,8 +16,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <vaadin.version>19.0.0.alpha2</vaadin.version>
-        <flow.version>6.0.0.alpha4</flow.version>
+        <vaadin.version>19.0.0</vaadin.version>
 
         <drivers.dir>${project.basedir}/drivers</drivers.dir>
         <drivers.downloader.phase>pre-integration-test</drivers.downloader.phase>
@@ -196,8 +195,8 @@
             -->
             <plugin>
                 <groupId>com.vaadin</groupId>
-                <artifactId>flow-maven-plugin</artifactId>
-                <version>${flow.version}</version>
+                <artifactId>vaadin-maven-plugin</artifactId>
+                <version>${vaadin.version}</version>
                 <executions>
                     <execution>
                         <goals>
@@ -225,6 +224,7 @@
             </dependencies>
 
             <build>
+                <defaultGoal>spring-boot:run</defaultGoal>
                 <plugins>
                     <plugin>
                         <groupId>org.springframework.boot</groupId>
@@ -235,8 +235,8 @@
                     </plugin>
                     <plugin>
                         <groupId>com.vaadin</groupId>
-                        <artifactId>flow-maven-plugin</artifactId>
-                        <version>${flow.version}</version>
+                        <artifactId>vaadin-maven-plugin</artifactId>
+                        <version>${vaadin.version}</version>
                         <executions>
                             <execution>
                                 <goals>
