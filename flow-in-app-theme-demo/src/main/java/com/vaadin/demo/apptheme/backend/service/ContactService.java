@@ -1,6 +1,6 @@
 package com.vaadin.demo.apptheme.backend.service;
 
-import javax.annotation.PostConstruct;
+import jakarta.annotation.PostConstruct;
 import java.util.List;
 import java.util.Random;
 import java.util.logging.Level;

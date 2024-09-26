@@ -1,0 +1,51 @@
+/*
+These view specific styles are global scoped (like global.css),
+but in another file to keep things cleaner. You have even one
+file per each view, in case there is a lot of css.
+*/
+
+
+/* Main layout */
+
+a[highlight] {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.header {
+    padding: 0 var(--lumo-space-m);
+}
+
+.header h1.logo {
+    font-size: 1em;
+    margin: var(--lumo-space-m);
+}
+
+
+/* List view */
+.list-view .content {
+    display: flex;
+}
+
+.list-view .contact-grid {
+    flex: 2;
+}
+
+.list-view .contact-form {
+    flex: 1;
+    padding: var(--lumo-space-m);
+}
+
+@media all and (max-width: 1100px) {
+    .list-view.editing .toolbar,
+    .list-view.editing .contact-grid {
+        display: none;
+    }
+}
+
+
+/* Dashboard view */
+.dashboard-view .contact-stats {
+    font-size: 4em;
+    margin: 1em 0;
+}

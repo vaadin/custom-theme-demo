@@ -1,8 +1,8 @@
 package com.vaadin.demo.apptheme.backend.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.FetchType;
-import javax.persistence.OneToMany;
+import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
+import jakarta.persistence.OneToMany;
 import java.util.LinkedList;
 import java.util.List;
 
