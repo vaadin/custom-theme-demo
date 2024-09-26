@@ -24,3 +24,5 @@ pnpm*
 error-screenshots
 
 *.generated.js
+
+src/main/frontend/generated/
